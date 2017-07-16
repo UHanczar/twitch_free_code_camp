@@ -1,0 +1,5 @@
+.idea/
+node_modules/
+js/test.js
+scripts/test-compiled.js
+scripts/test-compiled.js.map

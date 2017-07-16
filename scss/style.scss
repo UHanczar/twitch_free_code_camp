@@ -1,0 +1,112 @@
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Russo One', sans-serif;
+  position: relative;
+  background-color: #201C2B;
+
+.container {
+  width: 100%;
+  min-height: 100%;
+
+  .header {
+    background-color: #201C2B;
+    padding: 2rem;
+
+    .img-container {
+      position: relative;
+      bottom: 0;
+    }
+
+    .header-name_wrapper {
+
+      .header-name {
+        color: #6441A5;
+        margin-top: 7rem;
+        // font-family: 'Alfa Slab One', cursive;
+        // font-family: 'Baloo Thambi', cursive;
+        font-family: 'Russo One', sans-serif;
+        font-size: 7rem;
+        text-transform: uppercase;
+        font-weight: 600;
+
+        @media (max-width: 768px) {
+          margin-top: 6rem;
+        }
+      }
+    }
+
+  }
+
+  .content {
+    margin-bottom: 5rem;
+
+    .wrapper {
+      background-color: #201C2B;
+
+
+      .wrapper-panel {
+        padding: 20px;
+
+
+        .wrapper-panel_header {
+          text-transform: uppercase;
+          color: #6441A5;
+
+        }
+      }
+
+
+      .stream-wrapper {
+        border: 1px solid white;
+        padding: 2%;
+
+        //&:last-of-type {
+        //  margin-bottom: 7rem;
+        //  background: none;
+        //}
+
+
+        .img-logo {
+          width: 100px;
+          height: auto;
+        }
+
+        .link-name, .stream-status {
+          padding-top: 5%;
+          vertical-align: middle;
+        }
+
+        .link-name {
+          color: white;
+          text-decoration: none;
+        }
+
+        .stream-status {
+          color: #520073;
+          font-style: italic;
+        }
+
+        .error-message {
+          padding: 4rem 2rem;
+        }
+      }
+
+
+    }
+  }
+
+
+
+  .footer {
+    width: 100%;
+    //height: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #6441A5;
+  }
+}
+
+}

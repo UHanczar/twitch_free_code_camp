@@ -1,0 +1,60 @@
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Russo One', sans-serif;
+  position: relative;
+  background-color: #201C2B; }
+  html .container, body .container {
+    width: 100%;
+    min-height: 100%; }
+    html .container .header, body .container .header {
+      background-color: #201C2B;
+      padding: 2rem; }
+      html .container .header .img-container, body .container .header .img-container {
+        position: relative;
+        bottom: 0; }
+      html .container .header .header-name_wrapper .header-name, body .container .header .header-name_wrapper .header-name {
+        color: #6441A5;
+        margin-top: 7rem;
+        font-family: 'Russo One', sans-serif;
+        font-size: 7rem;
+        text-transform: uppercase;
+        font-weight: 600; }
+        @media (max-width: 768px) {
+          html .container .header .header-name_wrapper .header-name, body .container .header .header-name_wrapper .header-name {
+            margin-top: 6rem; } }
+    html .container .content, body .container .content {
+      margin-bottom: 5rem; }
+      html .container .content .wrapper, body .container .content .wrapper {
+        background-color: #201C2B; }
+        html .container .content .wrapper .wrapper-panel, body .container .content .wrapper .wrapper-panel {
+          padding: 20px; }
+          html .container .content .wrapper .wrapper-panel .wrapper-panel_header, body .container .content .wrapper .wrapper-panel .wrapper-panel_header {
+            text-transform: uppercase;
+            color: #6441A5; }
+        html .container .content .wrapper .stream-wrapper, body .container .content .wrapper .stream-wrapper {
+          border: 1px solid white;
+          padding: 2%; }
+          html .container .content .wrapper .stream-wrapper .img-logo, body .container .content .wrapper .stream-wrapper .img-logo {
+            width: 100px;
+            height: auto; }
+          html .container .content .wrapper .stream-wrapper .link-name, html .container .content .wrapper .stream-wrapper .stream-status, body .container .content .wrapper .stream-wrapper .link-name, body .container .content .wrapper .stream-wrapper .stream-status {
+            padding-top: 5%;
+            vertical-align: middle; }
+          html .container .content .wrapper .stream-wrapper .link-name, body .container .content .wrapper .stream-wrapper .link-name {
+            color: white;
+            text-decoration: none; }
+          html .container .content .wrapper .stream-wrapper .stream-status, body .container .content .wrapper .stream-wrapper .stream-status {
+            color: #520073;
+            font-style: italic; }
+          html .container .content .wrapper .stream-wrapper .error-message, body .container .content .wrapper .stream-wrapper .error-message {
+            padding: 4rem 2rem; }
+    html .container .footer, body .container .footer {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      color: #6441A5; }
+
+/*# sourceMappingURL=style.css.map */
